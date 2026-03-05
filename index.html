@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SOLÉ LUXE — Premium Women's Footwear</title>
+  <meta name="description" content="Discover premium women's footwear — heels, boots, sneakers, sandals & party wear. Step into confidence with Solé Luxe." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ═══════════════ NAVBAR ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">SOLÉ <span>LUXE</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#trending">Trending</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-icon" id="searchBtn" aria-label="Search"><i class="fas fa-search"></i></button>
+        <button class="nav-icon" aria-label="Wishlist"><i class="fas fa-heart"></i><span class="badge">3</span></button>
+        <button class="nav-icon" aria-label="Cart"><i class="fas fa-shopping-bag"></i><span class="badge">2</span></button>
+        <button class="nav-icon nav-toggle" id="navToggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content" id="heroContent">
+        <span class="hero-tag">New Season 2026</span>
+        <h1 class="hero-title">Step Into<br /><span class="highlight">Confidence</span></h1>
+        <p class="hero-subtitle">Elevate every step with our curated collection of premium women's footwear — where bold design meets uncompromising comfort.</p>
+        <div class="hero-cta">
+          <a href="#trending" class="btn btn-primary">Shop Heels <i class="fas fa-arrow-right"></i></a>
+          <a href="#categories" class="btn btn-outline">Explore Collection</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-number">500+</span><span class="stat-label">Premium Styles</span></div>
+          <div class="stat"><span class="stat-number">50K+</span><span class="stat-label">Happy Customers</span></div>
+          <div class="stat"><span class="stat-number">4.9</span><span class="stat-label">Avg. Rating</span></div>
+        </div>
+      </div>
+      <div class="hero-image" id="heroImage">
+        <div class="hero-image-glow"></div>
+        <img src="images/hero_heels.png" alt="Premium women's stiletto heels" />
+        <div class="hero-float-card card-top">
+          <i class="fas fa-fire"></i>
+          <span>Bestseller</span>
+        </div>
+        <div class="hero-float-card card-bottom">
+          <div class="mini-rating">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <span>2,459 Reviews</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <a href="#categories"><span></span></a>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FEATURED CATEGORIES ═══════════════ -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Shop by Style</span>
+        <h2 class="section-title">Featured Categories</h2>
+        <p class="section-subtitle">Find the perfect pair for every occasion</p>
+      </div>
+      <div class="categories-grid">
+        <div class="category-card" data-aos="fade-up">
+          <div class="category-img">
+            <img src="images/hero_heels.png" alt="Heels" />
+            <div class="category-overlay">
+              <span class="category-count">120+ Styles</span>
+            </div>
+          </div>
+          <h3>Heels</h3>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="category-img">
+            <img src="images/cat_sneakers.png" alt="Sneakers" />
+            <div class="category-overlay">
+              <span class="category-count">85+ Styles</span>
+            </div>
+          </div>
+          <h3>Sneakers</h3>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="category-img">
+            <img src="images/cat_boots.png" alt="Boots" />
+            <div class="category-overlay">
+              <span class="category-count">60+ Styles</span>
+            </div>
+          </div>
+          <h3>Boots</h3>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="category-img">
+            <img src="images/cat_sandals.png" alt="Sandals" />
+            <div class="category-overlay">
+              <span class="category-count">95+ Styles</span>
+            </div>
+          </div>
+          <h3>Sandals</h3>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="category-img">
+            <img src="images/cat_party.png" alt="Party Wear" />
+            <div class="category-overlay">
+              <span class="category-count">70+ Styles</span>
+            </div>
+          </div>
+          <h3>Party Wear</h3>
+          <a href="#" class="category-link">Shop Now <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TRENDING PRODUCTS ═══════════════ -->
+  <section class="trending" id="trending">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hot Right Now</span>
+        <h2 class="section-title">Trending Products</h2>
+        <p class="section-subtitle">Our most-loved styles this season</p>
+      </div>
+      <div class="product-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="heels">Heels</button>
+        <button class="filter-btn" data-filter="sneakers">Sneakers</button>
+        <button class="filter-btn" data-filter="boots">Boots</button>
+        <button class="filter-btn" data-filter="sandals">Sandals</button>
+      </div>
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card" data-category="heels">
+          <div class="product-badge">New</div>
+          <button class="product-wishlist" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+          <div class="product-image">
+            <img src="images/product_1.png" alt="Elegance Stiletto Pump" />
+            <div class="product-actions">
+              <button class="quick-view" aria-label="Quick view"><i class="fas fa-eye"></i></button>
+              <button class="add-to-cart-icon" aria-label="Add to cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Heels</span>
+            <h4 class="product-name">Elegance Stiletto Pump</h4>
+            <div class="product-rating">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+              <span>(4.8)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$189.00</span>
+              <span class="original-price">$249.00</span>
+            </div>
+            <button class="btn btn-add-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 2 -->
+        <div class="product-card" data-category="boots">
+          <div class="product-badge hot">Hot</div>
+          <button class="product-wishlist" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+          <div class="product-image">
+            <img src="images/cat_boots.png" alt="Urban Chic Ankle Boot" />
+            <div class="product-actions">
+              <button class="quick-view" aria-label="Quick view"><i class="fas fa-eye"></i></button>
+              <button class="add-to-cart-icon" aria-label="Add to cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Boots</span>
+            <h4 class="product-name">Urban Chic Ankle Boot</h4>
+            <div class="product-rating">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <span>(5.0)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$229.00</span>
+              <span class="original-price">$299.00</span>
+            </div>
+            <button class="btn btn-add-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 3 -->
+        <div class="product-card" data-category="sandals">
+          <button class="product-wishlist" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+          <div class="product-image">
+            <img src="images/cat_sandals.png" alt="Riviera Strappy Sandal" />
+            <div class="product-actions">
+              <button class="quick-view" aria-label="Quick view"><i class="fas fa-eye"></i></button>
+              <button class="add-to-cart-icon" aria-label="Add to cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Sandals</span>
+            <h4 class="product-name">Riviera Strappy Sandal</h4>
+            <div class="product-rating">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div>
+              <span>(4.3)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$149.00</span>
+            </div>
+            <button class="btn btn-add-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 4 -->
+        <div class="product-card" data-category="sneakers">
+          <div class="product-badge sale">-30%</div>
+          <button class="product-wishlist" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+          <div class="product-image">
+            <img src="images/cat_sneakers.png" alt="Cloud Walk Sneaker" />
+            <div class="product-actions">
+              <button class="quick-view" aria-label="Quick view"><i class="fas fa-eye"></i></button>
+              <button class="add-to-cart-icon" aria-label="Add to cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Sneakers</span>
+            <h4 class="product-name">Cloud Walk Sneaker</h4>
+            <div class="product-rating">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+              <span>(4.7)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$119.00</span>
+              <span class="original-price">$169.00</span>
+            </div>
+            <button class="btn btn-add-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 5 -->
+        <div class="product-card" data-category="heels">
+          <button class="product-wishlist" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+          <div class="product-image">
+            <img src="images/cat_party.png" alt="Gala Night Stiletto" />
+            <div class="product-actions">
+              <button class="quick-view" aria-label="Quick view"><i class="fas fa-eye"></i></button>
+              <button class="add-to-cart-icon" aria-label="Add to cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Party Wear</span>
+            <h4 class="product-name">Gala Night Stiletto</h4>
+            <div class="product-rating">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <span>(4.9)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$259.00</span>
+            </div>
+            <button class="btn btn-add-cart">Add to Cart</button>
+          </div>
+        </div>
+        <!-- Product 6 -->
+        <div class="product-card" data-category="heels">
+          <div class="product-badge">Bestseller</div>
+          <button class="product-wishlist" aria-label="Add to wishlist"><i class="far fa-heart"></i></button>
+          <div class="product-image">
+            <img src="images/hero_heels.png" alt="Classic Rouge Heel" />
+            <div class="product-actions">
+              <button class="quick-view" aria-label="Quick view"><i class="fas fa-eye"></i></button>
+              <button class="add-to-cart-icon" aria-label="Add to cart"><i class="fas fa-shopping-bag"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">Heels</span>
+            <h4 class="product-name">Classic Rouge Heel</h4>
+            <div class="product-rating">
+              <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+              <span>(5.0)</span>
+            </div>
+            <div class="product-price">
+              <span class="current-price">$199.00</span>
+              <span class="original-price">$279.00</span>
+            </div>
+            <button class="btn btn-add-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ NEW COLLECTION BANNER ═══════════════ -->
+  <section class="collection-banner" id="collection">
+    <div class="collection-overlay"></div>
+    <div class="container collection-content">
+      <span class="collection-tag">Spring / Summer 2026</span>
+      <h2 class="collection-title">The New<br /><span>Collection</span> Is Here</h2>
+      <p class="collection-text">Discover our latest designs crafted with premium Italian leather and innovative comfort technology. Each pair tells a story of elegance.</p>
+      <div class="collection-cta">
+        <a href="#" class="btn btn-light">Discover Now <i class="fas fa-arrow-right"></i></a>
+        <div class="collection-countdown">
+          <div class="countdown-item"><span id="days">12</span><small>Days</small></div>
+          <div class="countdown-item"><span id="hours">08</span><small>Hours</small></div>
+          <div class="countdown-item"><span id="minutes">45</span><small>Mins</small></div>
+          <div class="countdown-item"><span id="seconds">30</span><small>Secs</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ WHY CHOOSE US ═══════════════ -->
+  <section class="features" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Promise</span>
+        <h2 class="section-title">Why Choose Us</h2>
+        <p class="section-subtitle">We go above and beyond for every customer</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-gem"></i></div>
+          <h3>Premium Materials</h3>
+          <p>Crafted from the finest Italian leather and sustainable materials for lasting quality.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-cloud"></i></div>
+          <h3>Comfort Technology</h3>
+          <p>Our patented CloudStep™ insole technology ensures all-day comfort without compromise.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-shipping-fast"></i></div>
+          <h3>Fast Delivery</h3>
+          <p>Free express shipping on all orders. Get your new pair within 2-3 business days.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="fas fa-undo-alt"></i></div>
+          <h3>Easy Returns</h3>
+          <p>30-day hassle-free returns. If it doesn't feel right, send it back — no questions asked.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ TESTIMONIALS ═══════════════ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Customer Love</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-subtitle">Real reviews from real women</p>
+      </div>
+      <div class="testimonials-track" id="testimonialTrack">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"These heels are an absolute dream! I wore them to a gala and received so many compliments. The comfort level is unmatched — I danced all night!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">S</div>
+            <div class="author-info">
+              <h4>Sophia Martinez</h4>
+              <span>Verified Buyer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p class="testimonial-text">"The ankle boots are perfection. Premium quality leather, true to size, and they go with everything. Solé Luxe is now my go-to footwear brand."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">E</div>
+            <div class="author-info">
+              <h4>Emma Johnson</h4>
+              <span>Verified Buyer</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+          </div>
+          <p class="testimonial-text">"Finally found sneakers that are both chic and comfortable! The Cloud Walk sneaker is my daily essential. Fast delivery and beautiful packaging too."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">A</div>
+            <div class="author-info">
+              <h4>Aisha Patel</h4>
+              <span>Verified Buyer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-dots">
+        <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+        <button class="dot" data-index="1" aria-label="Slide 2"></button>
+        <button class="dot" data-index="2" aria-label="Slide 3"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ INSTAGRAM / SOCIAL ═══════════════ -->
+  <section class="instagram" id="instagram">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">@soleluxe</span>
+        <h2 class="section-title">Follow Us on Instagram</h2>
+        <p class="section-subtitle">Be part of the Solé Luxe community</p>
+      </div>
+      <div class="insta-grid">
+        <div class="insta-item">
+          <img src="images/hero_heels.png" alt="Instagram post 1" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="images/cat_sneakers.png" alt="Instagram post 2" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="images/cat_boots.png" alt="Instagram post 3" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="images/cat_sandals.png" alt="Instagram post 4" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="images/cat_party.png" alt="Instagram post 5" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </div>
+        <div class="insta-item">
+          <img src="images/product_1.png" alt="Instagram post 6" />
+          <div class="insta-overlay"><i class="fab fa-instagram"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="footer-logo">SOLÉ <span>LUXE</span></a>
+          <p>Empowering women to step boldly with premium footwear that blends fashion, comfort, and confidence.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-links-group">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Size Guide</a></li>
+            <li><a href="#">Shipping Info</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Categories</h4>
+          <ul>
+            <li><a href="#">Heels</a></li>
+            <li><a href="#">Sneakers</a></li>
+            <li><a href="#">Boots</a></li>
+            <li><a href="#">Sandals</a></li>
+            <li><a href="#">Party Wear</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h4>Stay in the Loop</h4>
+          <p>Get exclusive access to new arrivals, sales, and style tips.</p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Solé Luxe. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
